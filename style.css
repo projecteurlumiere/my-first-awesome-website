@@ -1,0 +1,85 @@
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #1F2937;
+    color: white;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+nav > ul > li {
+    list-style: none;
+    flex: 1 1 auto;
+    text-align: center;
+    border: solid 1px red;
+}
+
+#logo {
+    flex: 10 1 auto;
+    text-align: left;
+    font-size: 24px;
+    color: #f9faf8;
+    border: solid 1px green;
+    padding: 0px;
+}
+
+.header-text-img {
+    display: flex;
+    gap: 0px;
+    padding: 0 0 0 40px;
+    justify-content: center;
+    margin-top: 125px;
+    padding-bottom: 125px;
+}
+
+.header-text {
+    flex: 0 0 500px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-text > h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin-top: 0;
+}
+
+.header-void-img {
+    flex: 0 0 40px;
+}
+
+.header-img {
+    display: flex;
+    flex: 0 0 500px;
+    height: 250px;
+    background-color: gray;
+}
+
+/* header-img and header-img > p: how to align the  placeholder along both axis using flexbox?  */
+
+.header-img > p {
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    height: 15px;
+    width: 500px
+}
+
+.sign-up-top {
+    background-color: #3382f6;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    padding: 5px 20px;
+}
