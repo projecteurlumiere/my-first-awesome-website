@@ -43,6 +43,7 @@ nav > ul > li {
     gap: 0px;
     padding: 0 0 0 40px;
     justify-content: center;
+    gap: 40px;
     flex-wrap: wrap;
     margin-top: 125px;
     padding-bottom: 125px;
@@ -58,10 +59,6 @@ nav > ul > li {
     font-size: 48px;
     color: #f9faf8;
     margin-top: 0;
-}
-
-.header-void-img {
-    flex: 0 0 40px;
 }
 
 .header-img {
