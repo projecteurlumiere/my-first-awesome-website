@@ -60,6 +60,8 @@ nav > ul > li {
 
 .header-img {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 0 0 500px;
     height: 250px;
     background-color: gray;
@@ -68,11 +70,8 @@ nav > ul > li {
 /* header-img and header-img > p: how to align the  placeholder along both axis using flexbox?  */
 
 .header-img > p {
-    align-items: center;
-    text-align: center;
     margin: 0;
-    height: 15px;
-    width: 500px
+    padding: 0;
 }
 
 .sign-up-top {
