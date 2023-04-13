@@ -11,6 +11,12 @@ header {
     color: white;
 }
 
+ul {
+    list-style: none;
+    margin: 0px;
+    border: 0px;
+}
+
 nav > ul {
     display: flex;
     flex-direction: row;
@@ -18,7 +24,6 @@ nav > ul {
 }
 
 nav > ul > li {
-    list-style: none;
     flex: 1 1 auto;
     text-align: center;
     border: solid 1px red;
@@ -38,6 +43,7 @@ nav > ul > li {
     gap: 0px;
     padding: 0 0 0 40px;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 125px;
     padding-bottom: 125px;
 }
@@ -67,8 +73,6 @@ nav > ul > li {
     background-color: gray;
 }
 
-/* header-img and header-img > p: how to align the  placeholder along both axis using flexbox?  */
-
 .header-img > p {
     margin: 0;
     padding: 0;
@@ -81,4 +85,43 @@ nav > ul > li {
     color: white;
     font-size: 18px;
     padding: 5px 20px;
+    margin-bottom: 18px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 25px 0 50px 0;
+}
+
+.info > h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.img-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.img-text > li {
+    flex: 0 0 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.temp-img {
+    border: solid 3px #3382f6;
+    border-radius: 9px;
+    height: 145px;
+    width: 145px;
+    text-align: center;
 }
