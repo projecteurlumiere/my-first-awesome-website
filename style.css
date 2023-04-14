@@ -199,7 +199,8 @@ figcaption {
     border-radius: 10px;
     column-gap: 100px;
     row-gap: 25px;
-    padding: 25px 100px; 
+    padding: 25px 100px;
+    margin: 0 15px;
 }
 
 .blue-text > h4, 
