@@ -13,6 +13,7 @@ header {
 
 ul {
     list-style: none;
+    padding: 0px;
     margin: 0px;
     border: 0px;
 }
@@ -121,4 +122,42 @@ nav > ul > li {
     height: 145px;
     width: 145px;
     text-align: center;
+}
+
+blockquote,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 97px 0;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote {
+    flex-shrink: 1;
+    max-width: 724px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+figcaption {
+    flex-shrink: 1;
+    max-width: 724px;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: 800;
+    align-self: flex-end;
 }
