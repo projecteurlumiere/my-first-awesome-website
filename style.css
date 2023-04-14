@@ -18,8 +18,10 @@ header {
 .nav-header-text-img {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
     max-width: 1040px;
+    min-width: 500px;
+    padding: 0 25px;
 }
 
 ul {
@@ -32,6 +34,7 @@ ul {
 nav {
     align-self: stretch;
     max-width: 1040px;
+    min-width: 500px;
 }
 
 nav > ul {
@@ -44,8 +47,8 @@ nav > ul {
 
 nav > ul > li {
     flex: 1 0 auto;
-    text-align: center;
-    border: solid 1px red;
+    text-align: right;
+    gap: 25px;
 }
 
 #logo {
@@ -53,7 +56,6 @@ nav > ul > li {
     text-align: left;
     font-size: 24px;
     color: #f9faf8;
-    border: solid 1px green;
     padding: 0px;
 }
 
@@ -167,6 +169,7 @@ blockquote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    padding: 0 25px;
 }
 
 figcaption {
@@ -176,6 +179,7 @@ figcaption {
     font-size: 24px;
     font-weight: 800;
     align-self: flex-end;
+    padding-right: 25px;
 }
 
 .sign-up {
