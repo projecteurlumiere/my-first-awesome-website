@@ -7,31 +7,49 @@ body {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #1F2937;
     color: white;
 }
 
+.nav-header-text-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1040px;
+}
+
 ul {
     list-style: none;
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+nav {
+    align-self: stretch;
+    max-width: 1040px;
 }
 
 nav > ul {
     display: flex;
-    flex-direction: row;
+    justify-self: stretch;
+    max-width: 1040px;
     margin: 0px;
+
 }
 
 nav > ul > li {
-    flex: 1 1 auto;
+    flex: 1 0 auto;
     text-align: center;
     border: solid 1px red;
 }
 
 #logo {
-    flex: 10 1 auto;
+    flex: 10 0 auto;
     text-align: left;
     font-size: 24px;
     color: #f9faf8;
@@ -165,7 +183,7 @@ figcaption {
     justify-content: center;
     align-items: center;
     background-color: white;
-    padding: 50px 0;
+    padding: 75px 0;
 }
 
 .blue {
