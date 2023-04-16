@@ -11,7 +11,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #1F2937;
+    background-color: rgb(52, 61, 31);
     color: white;
 }
 
@@ -19,7 +19,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    max-width: 1040px;
+    max-width: 1046px;
     padding: 0 25px;
 }
 
@@ -33,14 +33,14 @@ ul {
 nav {
     align-self: stretch;
     flex-wrap: wrap;
-    max-width: 1040px;
+    max-width: 1046px;
 }
 
 nav > ul {
     display: flex;
     justify-self: stretch;
     flex-wrap: wrap;
-    max-width: 1040px;
+    max-width: 1046px;
     margin: 0px;
 
 }
@@ -54,6 +54,7 @@ nav > ul > li {
     flex: 1 0 auto;
     text-align: center;
     gap: 25px;
+    padding-top: 5px;
 }
 
 #logo {
@@ -89,6 +90,8 @@ nav > ul > li {
     max-width: 500px;
     width: 100%;
     height: auto;
+    border: solid 3px rgb(91, 91, 15);
+    border-radius: 10px;
 }
 
 .sign-up-top {
@@ -137,6 +140,14 @@ nav > ul > li {
     height: 145px;
     width: 145px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kryalist {
+    width: auto;
+    height: 115px;
 }
 
 blockquote,
