@@ -20,7 +20,6 @@ header {
     flex-direction: column;
     align-items: center; 
     max-width: 1040px;
-    min-width: 500px;
     padding: 0 25px;
 }
 
@@ -33,21 +32,27 @@ ul {
 
 nav {
     align-self: stretch;
+    flex-wrap: wrap;
     max-width: 1040px;
-    min-width: 500px;
 }
 
 nav > ul {
     display: flex;
     justify-self: stretch;
+    flex-wrap: wrap;
     max-width: 1040px;
     margin: 0px;
 
 }
 
+.logo {
+    max-width: 150px;
+    min-width: 100px;
+}
+
 nav > ul > li {
     flex: 1 0 auto;
-    text-align: right;
+    text-align: center;
     gap: 25px;
 }
 
@@ -69,7 +74,7 @@ nav > ul > li {
 }
 
 .header-text {
-    flex: 0 0 500px;
+    flex: 0 1 500px;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -80,18 +85,10 @@ nav > ul > li {
     margin-top: 0;
 }
 
-.header-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 0 0 500px;
-    height: 250px;
-    background-color: gray;
-}
-
-.header-img > p {
-    margin: 0;
-    padding: 0;
+.krya0 {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
 }
 
 .sign-up-top {
