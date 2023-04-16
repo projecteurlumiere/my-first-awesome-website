@@ -92,7 +92,6 @@ nav > ul > li {
     max-width: 500px;
     width: 100%;
     height: auto;
-    border: solid 3px rgb(91, 91, 15);
     border-radius: 10px;
 }
 
@@ -149,7 +148,7 @@ h2 {
 
 .temp-img {
     flex: 0 1 225px;
-    border: solid 3px #3382f6;
+    border: solid 3px #4b582d;
     border-radius: 9px;
     width: 100%;
     max-width: 225px;
@@ -202,7 +201,7 @@ blockquote {
 figcaption {
     flex-shrink: 1;
     max-width: 724px;
-    color: #1F2937;
+    color: white;
     font-size: 24px;
     font-weight: 800;
     align-self: flex-end;
@@ -222,7 +221,7 @@ figcaption {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #3382f6;
+    background-color: #4b582d;
     border-radius: 10px;
     column-gap: 100px;
     row-gap: 25px;
