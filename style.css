@@ -11,7 +11,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(52, 61, 31);
+    background-color: #4b582d;
     color: white;
 }
 
@@ -97,7 +97,7 @@ nav > ul > li {
 }
 
 .sign-up-top {
-    background-color: #3382f6;
+    background-color: #e1a229;
     text-align: center;
     border-radius: 5px;
     color: white;
@@ -107,6 +107,7 @@ nav > ul > li {
 }
 
 .info-container {
+    background-color: #fffad9;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,16 +116,16 @@ nav > ul > li {
 }
 
 .info {
-    display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     
 }
 
-.info > h2 {
+h2 {
+    font-size: 32px;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .img-text {
@@ -132,6 +133,7 @@ nav > ul > li {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+    margin-top: 25px;
     gap: 30px;
     max-width: 1046px;
 }
@@ -177,7 +179,7 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #e5e7eb;
+    background-color: #79b1e0;
     padding: 100px 0;
 }
 
@@ -193,7 +195,7 @@ blockquote {
     max-width: 724px;
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    color: white;
     padding: 0 25px;
 }
 
@@ -246,7 +248,7 @@ figcaption {
 }
 
 .sign-up-bottom {
-    background-color: #3382f6;
+    background-color: #e1a229;
     border: solid 2px white;
     text-align: center;
     border-radius: 5px;
@@ -259,7 +261,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #4b582d;
 }
 
 footer > p {
