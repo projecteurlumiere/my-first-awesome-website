@@ -267,7 +267,9 @@ footer > p {
     color: white;
 }
 
-@media (max-width: 438px) {
+/* max-width: 438px for when logo starts getting smaller */
+
+@media (max-width: 550px) { 
     nav > ul {
         flex-direction: column;
         align-items: center;
