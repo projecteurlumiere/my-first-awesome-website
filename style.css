@@ -1,5 +1,6 @@
 * {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow-x: hidden;
 }
 
 body {
@@ -132,6 +133,7 @@ h2 {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+    overflow: hidden;
     margin-top: 25px;
     gap: 30px;
     max-width: 1046px;
@@ -161,6 +163,7 @@ h2 {
 .kryalist {
     width: auto;
     height: 200px;
+    overflow: visible;
 }
 
 #tweety {
@@ -283,6 +286,9 @@ footer > p {
         flex-grow: 0;
         flex-shrink: 0;
         min-width: 150px;
+    }
+    .blue {
+        padding: 25px 25px;
     }
 
 }
